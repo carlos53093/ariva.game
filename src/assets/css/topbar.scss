@@ -1,0 +1,138 @@
+.topbar {
+  padding: 31px 70px 19px 150px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.search {
+    background: #1e1e1e;
+    border-radius: 20px;
+    width: 210px;
+    height: 33px;
+    position: relative;
+    overflow: hidden;
+    height: auto;
+    .search_field {
+      padding: 8px 15px;
+      border: none;
+      left: 0;
+      top: 0;
+      background: #1e1e1e;
+      &:focus-visible {
+        outline: none;
+        border: none;
+      }
+    }
+    .search_ico {
+      position: absolute;
+      right: 0;
+      top: 0;
+      padding: 15px;
+      width: 40px;
+      height: 100%;
+      background: #cbfa34;
+    }
+  }
+
+.topbar {
+  .setting_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+.card_box {
+    position: relative;
+    .card_num {
+      background: #cbfa34;
+      position: absolute;
+      top: -40%;
+      right: -40%;
+      color: #403e3f;
+      font-family: Montserrat;
+      font-style: normal;
+      font-weight: 800;
+      font-size: 8px;
+      padding: 5px;
+      border-radius: 999px;
+    }
+  }
+.MuiPaper-root {
+  background: #1e1e1e !important;
+}
+
+.mobile_tobar {
+  background: #222222;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 25px;
+  .mobile_setting_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+.setting_container {
+  .MuiFormControl-root {
+    .MuiFilledInput-root {
+      margin-right: 25px;
+      background: #1e1e1e;
+      border-radius: 4px;
+      border-style: none;
+      .MuiSelect-select {
+        padding-top: 8px;
+        border: none;
+      }
+      .MuiSvgIcon-root {
+        color: white;
+      }
+    }
+    .MuiFilledInput-root {
+      border: none;
+      input {
+        border: none;
+      }
+    }
+  }
+}
+
+.mobile_setting_container {
+  .MuiFormControl-root {
+    margin-right: 0 !important;
+    .MuiFilledInput-root {
+      margin-right: 25px;
+      background: #1e1e1e;
+      border-radius: 4px;
+      border-style: none;
+      .MuiSelect-select {
+        padding-top: 8px;
+        border: none;
+      }
+      .MuiSvgIcon-root {
+        color: white;
+      }
+    }
+    .MuiFilledInput-root {
+      border: none;
+      input {
+        border: none;
+      }
+    }
+  }
+}
+
+.map_status::-webkit-scrollbar {
+  width: 8px;
+}
+
+.map_status::-webkit-scrollbar-thumb {
+  width: 8px;
+  background: rgba(255, 255, 255, 0.21);
+  border-radius: 8px;
+}
+

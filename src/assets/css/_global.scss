@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;300;400;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,700;1,300;1,400;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@mixin font {
+    font-family: Poppins;
+    font-style: normal;
+}
+.font-size-1 {
+    @include font;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 45px;
+}
+
+.font-size-2 {
+    @include font;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.font-size-3 {
+    @include font;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 21px;
+}
+
+.font-size-4 {
+    @include font;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 22px;
+    color: #788393;
+    line-height: 33px;
+}
+
+.font-size-5 {
+    @include font;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 22px;
+    line-height: 21px;
+}

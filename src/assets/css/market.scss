@@ -1,0 +1,259 @@
+.market{
+    display: flex;
+    flex-direction: column;
+    padding: 75px 70px 70px 150px;
+}
+
+.mobile_Market {
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+}
+
+.market_filter_wrapper{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.market_filter_container{
+    background: linear-gradient(90deg, #CBFA34 0%, #66ACD4 100%);
+    border-radius: 10px;
+    padding: 18px;
+    position: relative;
+    z-index: 2;
+}
+
+.market_filter_in {
+    background: linear-gradient(180deg, #212130 0%, #1E1C28 100%);
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: flex-end;
+}
+
+.market_filter_option {
+    background: rgba(255, 255, 255, 0.04);
+    border-radius: 4px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 15px;
+}
+
+.market_filter_option_btns {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: center;
+}
+
+.market_filter_mark_container{
+    background: linear-gradient(180deg, rgba(202, 249, 54, 1) 0%, rgba(104, 174, 209, 0) 100%);
+    border-radius: 4px;
+    padding: 2px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: -50px;
+    width: 40%;
+    min-width: 520px;
+}
+
+.mobile_market_filter_container {
+    // padding: 30px 40px;
+    width: 100%;
+}
+
+.mobile_market_filter_mark_container{
+    background: linear-gradient(180deg, rgba(202, 249, 54, 1) 0%, rgba(104, 174, 209, 0) 100%);
+    border-radius: 4px;
+    padding: 2px;
+}
+
+.mobile_market_filter_mark_content{
+    background: linear-gradient(180deg, #2E374C 0%, #20222B 100%);
+    border-radius: 4px 4px 0px 0px;
+    padding: 28px 40px;
+}
+
+.market_filter_mark_content {
+    padding-top: 33px;
+    padding-bottom: 31px;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 76px;
+    padding-right: 76px;
+    background: linear-gradient(180deg, #2E394E 0%, #1E1F28 100%);
+}
+
+.market_sort {
+    background: linear-gradient(180deg, #CBFA34 0%, #66ACD4 100%);
+    padding: 17px;
+    margin-top: -20px;
+    transition: transform 0.5s;
+    // z-index: -1;
+    border-radius: 8px;
+}
+
+.market_sort_main {
+    background: #201F2D;
+    border-radius: 8px;
+    padding: 35px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: flex-start;
+    width: 100%;
+    position: relative;
+}
+
+.market_sort_mid::-webkit-scrollbar {
+    height: 10px;
+}
+
+.market_sort_mid::-webkit-scrollbar-thumb {
+    background: rgba(255, 255, 255, 0.21);
+    border-radius: 10px;
+}
+
+.market_shadow {
+    position: absolute;
+    right: 30px;
+    top: 0;
+    background: linear-gradient(270deg, #1D2328 0%, rgba(29, 35, 40, 0) 100%);
+    height: 100%;
+    width: 60px;
+}
+
+.market_sort_flow {
+    display: flex;
+    flex-direction: row;
+}
+
+.market_sort_container {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: flex-start;
+}
+
+.collection {
+    background: rgba(255, 255, 255, 0.06);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: flex-start;
+    padding: 10px;
+    height: 165px;
+    min-width: 225px;
+}
+
+.collection_container {
+    overflow: auto;
+    height: 140px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.collection_container::-webkit-scrollbar {
+    width: 10px;
+  }
+
+.collection_container::-webkit-scrollbar-thumb {
+    background: rgba(255, 255, 255, 0.21);
+    border-radius: 10px;
+}
+
+.collection_itm {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: flex-start;
+
+}
+
+.collection_itm_block {
+    width: 14px;
+height: 14px;
+background: #FFFFFF;
+border-radius: 2px;
+margin-right: 10px;
+}
+
+.market_sort_mid {
+    overflow: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: flex-start;
+    width: 100%;
+    padding-bottom: 12px;
+}
+
+.mobile_market_filter {
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: flex-start;
+}
+
+.mobile_market_filter_container {
+    height: 100vh;
+    overflow: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+.mobile_market_filter_container::-webkit-scrollbar {
+    width: 10px;
+}
+
+.mobile_market_filter_container::-webkit-scrollbar-thumb {
+    background: rgba(255, 255, 255, 0.21);
+    border-radius: 10px;
+}
+
+.nft_container_nft {
+    background: rgba(53, 52, 91, 0.38);
+    border-radius: 8px;
+    position: relative;
+    padding: 32px;
+    padding-top: 80%;
+    display: flex;
+    flex-direction: column;
+}
+
+.nft_img_container {
+    background: linear-gradient(180deg, rgba(202, 249, 54, 1) 0%, rgba(104, 174, 209, 0) 100%);
+    padding: 2px;
+    border-radius: 10px;
+    // overflow: hidden;
+    position: absolute;
+    top: -19px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80%;
+}
+
+.nft_img_wrapper_nft {
+    // transform: matrix(1, 0, 0, -1, 0, 0);
+    background: linear-gradient(360deg, #32235A 0%, rgba(29, 35, 40, 1) 100%);
+    padding: 18px 51px 35px 49px;
+    transform: matrix(1, 0, 0, -1, 0, 0);
+    border-radius: 10px;
+} 

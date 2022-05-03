@@ -1,0 +1,20 @@
+.footer{
+    padding: 50px 70px 64px 150px;
+    background: linear-gradient(90deg, rgba(57, 57, 57, 0.1) 0%, rgba(98, 98, 98, 0.1) 100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.footer_ico_container{
+    background: linear-gradient(135deg, #CBFA34 -23.35%, #66ACD4 121.13%);
+    border-radius: 6px;
+    padding: 8px;
+    margin-right: 20px;
+}
+
+.mobile_footer{
+    padding: 35px 40px 26px 40px;
+    background: linear-gradient(90deg, rgba(57, 57, 57, 0.1) 0%, rgba(98, 98, 98, 0.1) 100%);
+}

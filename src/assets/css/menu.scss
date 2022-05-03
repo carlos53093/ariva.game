@@ -1,0 +1,37 @@
+.menu {
+  transition: height 0.2s ease-in;
+  width: 100%;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 70px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  .menu_item_wraper {
+    width: 100%;
+    .menu_item {
+      padding: 11px 28px;
+      position: relative;
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-start;
+      align-items: center;
+      border-radius: 0px 17px 17px 0px;
+      .menu_active_show {
+        position: absolute;
+        left: 0;
+        right: 0;
+        width: 10px;
+        height: 100%;
+        background: #cbfa34;
+        box-shadow: 0px 0px 7px #cbfa34;
+        border-radius: 17px 0px 0px 17px;
+      }
+    }
+  }
+
+  .menu_item.isActive {
+    background: rgba(255, 255, 255, 0.03);
+  }
+}
